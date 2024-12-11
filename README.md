@@ -1,0 +1,1 @@
+SMILE框架是一个基于现代PHP开发最佳实践、集成Composer的轻量型PHP框架的设计方案。
