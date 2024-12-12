@@ -1,0 +1,22 @@
+{
+    "name": "codeyoursmile/smile",
+    "description": "A lightweight PHP framework",
+    "type": "project",
+    "require": {
+        "symfony/var-dumper": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
