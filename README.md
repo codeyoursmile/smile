@@ -14,7 +14,6 @@ smile框架是一个基于现代PHP开发最佳实践、集成Composer的轻量�
 
 ```
 smile/
-
 ├── app/                 # 应用目录
 │   ├── controllers/       # 控制器目录
 │   │   └── HomeController.php
