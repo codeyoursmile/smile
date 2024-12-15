@@ -1,4 +1,4 @@
-**全新设计的轻量型 PHP 框架**
+**全新设计的轻量型PHP框架**
 
 smile框架是一个基于现代PHP开发最佳实践、集成Composer的轻量型PHP框架的设计方案。
 
@@ -15,11 +15,11 @@ smile框架是一个基于现代PHP开发最佳实践、集成Composer的轻量�
 ```
 smile/
 ├── app/                 # 应用目录
-│   ├── controllers/       # 控制器目录
+│   ├── Controllers/       # 控制器目录
 │   │   └── HomeController.php
-│   ├── models/            # 模型目录
+│   ├── Models/            # 模型目录
 │   │   └── UserModel.php
-│   ├── views/             # 视图目录
+│   ├── Views/             # 视图目录
 │       └── home.php
 ├── config/                # 配置文件目录
 │   └── config.php         # 框架配置文件
@@ -38,3 +38,12 @@ smile/
 ├── composer.json          # Composer 配置文件
 └── README.md              # 项目说明文件
 ```
+
+**使用方法**
+
+1.创建一个空数据库
+2.将smile.sql导入你的数据库（就是一个示例）
+3.将config/config.php的配置文件按照你自己的来修改
+4.直接放置在网站根目录 把运行目录设置为/public 即可访问
+5.在网站根目录，按需使用composer require 命令引入你想要使用库，不需要可以不引用
+6.目前该框架使仅仅用Composer引入了phpunit和symfony/var-dumper这两个库用于单元测试和调试
