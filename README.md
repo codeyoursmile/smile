@@ -36,6 +36,8 @@ smile/
 │   └── ExampleTest.php    # 示例测试
 ├── vendor/                # Composer 自动生成
 ├── composer.json          # Composer 配置文件
+├── smile.sql              # 示例 SQL
+├── LICENSE                # MIT LICENSE
 └── README.md              # 项目说明文件
 ```
 
