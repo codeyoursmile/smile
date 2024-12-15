@@ -4,6 +4,7 @@ define('BASE_PATH', dirname(__DIR__));
 
 define('APP_PATH', BASE_PATH . '/app');
 
+// var_dump(class_exists('\PDO'));die;
 // 自动加载
 require BASE_PATH . '/vendor/autoload.php';
 

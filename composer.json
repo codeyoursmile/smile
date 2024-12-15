@@ -2,7 +2,6 @@
     "name": "codeyoursmile/smile",
     "description": "A lightweight PHP framework",
     "type": "project",
-    "license": "MIT",
     "require": {
         "symfony/var-dumper": "^6.0"
     },
@@ -18,6 +17,6 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^10.0"
+        "phpunit/phpunit": "^10.5"
     }
 }
