@@ -42,8 +42,13 @@ smile/
 **使用方法**
 
 1.创建一个空数据库
+
 2.将smile.sql导入你的数据库（就是一个示例）
+
 3.将config/config.php的配置文件按照你自己的来修改
+
 4.直接放置在网站根目录 把运行目录设置为/public 即可访问
+
 5.在网站根目录，按需使用composer require 命令引入你想要使用库，不需要可以不引用
+
 6.目前该框架使仅仅用Composer引入了phpunit和symfony/var-dumper这两个库用于单元测试和调试
